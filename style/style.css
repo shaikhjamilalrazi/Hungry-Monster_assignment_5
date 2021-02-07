@@ -18,6 +18,11 @@ body {
   background-color: #e64926;
 }
 
+.btn-check:focus + .btn-danger,
+.btn-danger:focus {
+  background-color: #f06c4e;
+}
+
 .meal-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
