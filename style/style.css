@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand img {
+  height: 74px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #383838;
+}
+
+.btn-danger {
+  background-color: #f06c4e;
+}
+
+.btn-danger:hover {
+  background-color: #e64926;
+}
+
+.meal-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+}
+
+.meal-item {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.meal-img img {
+  width: 100%;
+  display: block;
+}
+.meal-name {
+  padding: 10px.5px;
+  text-align: center;
+  background: #f8f7f5;
+}
+.meal-name h3 {
+  font-size: 23px;
+}
+
+.food-img img {
+  width: 100%;
+  height: 322px;
+  border-radius: 10px;
+}
+
+.food-name h3 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.ingredients h4 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fa-check-square {
+  color: #f06c4e;
+}
+
+ul li span {
+  padding-left: 10px;
+}
+
+.noData {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
