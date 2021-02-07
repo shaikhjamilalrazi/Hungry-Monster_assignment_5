@@ -1,11 +1,10 @@
 const src = document.querySelector(".input-group");
-
 const searchField = document.querySelector(".form-control");
 const searchBtn = document.querySelector(".btn");
-
 const mainDiv = document.querySelector(".meal-content");
 const singleContent = document.querySelector(".single-content");
 
+// multiple meals
 const mealValue = (meals) => {
   let html = "";
   if (meals && searchField.value !== "") {
@@ -40,6 +39,7 @@ searchBtn.addEventListener("click", function (e) {
     .then((data) => mealValue(data.meals));
 });
 
+// single recipe
 const singleIngredient = (id) => {
   const meal = id.meals[0];
   let ingList = [];
